@@ -8,7 +8,7 @@
 		<relativePath />
 	</parent>
 
-	<groupId>org.wildfly</groupId>
+	<groupId>org.wildfly.bridge</groupId>
 	<artifactId>cdi-api-bridge</artifactId>
 	<packaging>jar</packaging>
 	<version>2.0</version>
@@ -343,6 +343,23 @@
 								<delete file="${project.build.outputDirectory}/javax/enterprise/event/Reception.class" />
 								<delete file="${project.build.outputDirectory}/javax/enterprise/event/ObserverException.class" />
 								<delete file="${project.build.outputDirectory}/javax/enterprise/event/TransactionPhase.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/util/Nonbinding$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/inject/Vetoed$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/inject/TransientReference$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/inject/Typed$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/inject/Any$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/inject/New$Literal" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/inject/Default$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/inject/Alternative$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/inject/Specializes$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/context/BeforeDestroyed$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/context/ConversationScoped$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/context/RequestScoped$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/context/SessionScoped$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/context/Dependent$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/context/Initialized$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/context/Destroyed$Literal.class" />
+								<delete file="${project.build.outputDirectory}/javax/enterprise/context/ApplicationScoped$Literal.class" />
 							</target>
 						</configuration>
 					</execution>
