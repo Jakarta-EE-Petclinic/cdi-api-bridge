@@ -11,7 +11,7 @@
 	<groupId>org.wildfly.bridge</groupId>
 	<artifactId>cdi-api-bridge</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0.Final</version>
+	<version>1.0.1.Final-SNAPSHOT</version>
 
 	<name>CDI APIs</name>
 	<description>APIs for CDI (Contexts and Dependency Injection for Java)</description>
